@@ -3,7 +3,10 @@ import React from "react";
 
 const Second = () => {
   return (
-    <div className="min-h-screen" style={{ background: "#000D3F", color: "white" }}>
+    <div
+      className="min-h-screen overflow-hidden"
+      style={{ background: "#000D3F", color: "white" }}
+    >
       <div className="relative container mx-auto px-4 py-8 flex flex-col lg:flex-row items-center">
         {/* Ellipse */}
         <div
@@ -25,7 +28,8 @@ const Second = () => {
             height: "1000px",
             left: "603px",
             opacity: 1,
-            background: "radial-gradient(50% 50% at 50% 50%, #5C1EFE 0%, rgba(1, 0, 255, 0) 92.71%)",
+            background:
+              "radial-gradient(50% 50% at 50% 50%, #5C1EFE 0%, rgba(1, 0, 255, 0) 92.71%)",
           }}
         ></div>
 
@@ -67,7 +71,7 @@ const Second = () => {
           <img
             src="doctor.png" // Replace with the path to your image
             alt="Doctor with VR"
-            className="rounded-lg shadow-lg w-full h-auto"
+            className="rounded-lg w-full h-auto"
           />
         </div>
       </div>
