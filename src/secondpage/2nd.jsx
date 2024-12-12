@@ -44,7 +44,12 @@ const Second = () => {
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          <h1 className="text-4xl font-bold mb-4">AI</h1>
+          {/* <h1 className="text-4xl font-bold mb-4">AI</h1> */}
+          <img
+            src="/AI Club Logo.png"
+            alt="AI Club Logo"
+            className="w-[100px] lg:w-[50px] mb-4"
+          />
           <h2 className="text-3xl font-extrabold leading-snug mb-6">
             LOW-COST GPU AND AI BASED COMPUTATIONAL TOOL-SUITE FOR CANCER
             DIAGNOSIS AND RADIOTHERAPY TREATMENT
