@@ -32,14 +32,14 @@ const Hero = () => {
 
         {/* Register Button Section */}
         <div className="absolute bottom-8 flex flex-col items-center gap-4">
-          <a
+          {/* <a
             href="google.com"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gradient-to-bl from-[#112dbc] via-[#1a33af] to-[#2238a4] px-6 py-2 font-jost text-white tracking-wide rounded-md"
           >
             Register Now
-          </a>
+          </a> */}
           <img src="/arrow.png" alt="Arrow icon" />
         </div>
       </div>
