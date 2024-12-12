@@ -25,27 +25,24 @@ const Hero = () => {
           </h1>
         </div>
 
-
-        {/* Logos for NITC, SPARC, and University of Utah
-        <div className="absolute top-8 right-8 flex gap-4">
+        {/* Logos for NITC, SPARC, and University of Utah */}
+        <div className="absolute top-8 right-8 flex gap-4 items-center">
           <img
-            src="/nitc-logo.png" // Update with the path to the NITC logo
+            src="/national-institute-of-technology-calicut-logo-00F1DEB909-seeklogo.com (1).png" // NITC Logo
             alt="NITC Logo"
-            className="w-[8vw] lg:w-[4vw] object-contain"
+            className="w-[6vw] md:w-[3.5vw] lg:w-[3vw] object-contain"
           />
           <img
-            src="/spark-logo.png" // Update with the path to the SPARC logo
+            src="/sparc.png" // SPARC Logo
             alt="SPARC Logo"
-            className="w-[8vw] lg:w-[4vw] object-contain"
+            className="w-[6vw] md:w-[4.5vw] lg:w-[3vw] object-contain"
           />
           <img
-            src="/utah-logo.png" // Update with the path to the University of Utah logo
+            src="/images (1).png" // University of Utah Logo
             alt="University of Utah Logo"
-            className="w-[8vw] lg:w-[4vw] object-contain"
+            className="w-[6vw] md:w-[4.5vw] lg:w-[3vw] object-contain"
           />
-        </div> */}
-
-
+        </div>
 
         {/* Image of the Doctor */}
         <img
@@ -56,14 +53,6 @@ const Hero = () => {
 
         {/* Register Button Section */}
         <div className="absolute bottom-8 flex flex-col items-center gap-4">
-          {/* <a
-            href="google.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-gradient-to-bl from-[#112dbc] via-[#1a33af] to-[#2238a4] px-6 py-2 font-jost text-white tracking-wide rounded-md"
-          >
-            Register Now
-          </a> */}
           <img
             src="/arrow.png"
             alt="Arrow icon"
